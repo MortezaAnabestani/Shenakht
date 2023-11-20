@@ -1,0 +1,77 @@
+.baner {
+  position: relative;
+}
+
+.baner > img {
+  border-radius: 2rem;
+  margin-top: 4vh;
+  width: 100%;
+  min-height: 40vh;
+  object-fit: cover;
+  object-position: 19%;
+}
+
+.banerTitle {
+  position: absolute;
+  bottom: 1rem;
+  right: 4rem;
+}
+
+.banerTitle > h6 {
+  font-size: 2.3vw;
+  font-weight: bold;
+}
+.banerTitle > p {
+  font-size: 1.5vw;
+  color: #858282;
+}
+
+.mainContent_aboutUs_count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #fdf6e4;
+  border-radius: 50%;
+  color: #ffcb05;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.mainContent_aboutUs_count > h5 {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.aboutUs_explain {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  line-height: 2rem;
+}
+.aboutUs_explain > img {
+  padding: 10px;
+  margin: 10px;
+  background-color: #fdf8e4;
+  width: 40px;
+  border-radius: 50%;
+}
+.aboutUs_explain > h6 {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.aboutUs_explain > p {
+  font-size: 0.8rem;
+  color: #7a7a7a;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 768px) {
+  .banerTitle > h6 {
+    font-size: 3vw;
+  }
+  .banerTitle > p {
+    font-size: 2vw;
+  }
+}

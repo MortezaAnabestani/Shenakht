@@ -1,0 +1,83 @@
+.blog_title_right > p {
+  font-size: 0.7rem;
+  color: #878787;
+}
+
+.blog_title_right > h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.topContentItemsLeft {
+  align-items: normal;
+}
+.mediaIcons img:hover {
+  background-color: #202020 !important;
+}
+
+.blog_content > p {
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+
+.blog_content > img {
+  border-radius: 2rem;
+  margin-right: 20px;
+}
+
+.chart {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  box-shadow: -1px 1px 11px 1px rgba(160, 155, 155, 0.5);
+  -webkit-box-shadow: -1px 1px 11px 1px rgba(160, 155, 155, 0.81);
+  -moz-box-shadow: -1px 1px 11px 1px rgba(160, 155, 155, 0.81);
+  padding: 20px;
+  border-radius: 1rem;
+}
+
+.chart_top {
+  margin-bottom: 4vh;
+}
+
+.chart > p {
+  font-weight: 100;
+  font-size: 0.8rem;
+  line-height: 2rem;
+}
+
+.chart_top > h6 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.chart_top_icons img {
+  margin-right: 15px;
+}
+
+.chart_top_icons > img:last-child {
+  background-color: #202020;
+  padding: 5px;
+  border-radius: 0 1rem 1rem 0;
+  margin-left: -20px;
+}
+
+.chartBox_selection > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: 2.5rem;
+}
+
+.chartBox_selection > a:hover {
+  color: #ffcb05;
+}
+
+.blog_title_end {
+  align-items: baseline;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 2rem;
+  margin-top: 1vh;
+  margin-bottom: 2vh;
+}

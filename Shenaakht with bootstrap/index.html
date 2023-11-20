@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shenakht</title>
+  </head>
+  <body>
+    <!-- Section Header Start -->
+    <header>
+      <div class="container">
+        <div class="logoLogin">
+          <div class="logo">
+            <img src="./images/index/LogoSideTitle.png" alt="Logo" />
+          </div>
+          <div class="date">
+            <p>تاریخ امروز</p>
+            <p>سه‌شنبه، 17 شهریور</p>
+          </div>
+          <div class="searchBox">
+            <input
+              type="search"
+              id="searchInput"
+              placeholder="از این‌جا بیابید..."
+            />
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </div>
+          <div class="login">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <a href="#">ورود به حساب</a>
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-fluid p-0">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >صفحۀ اصلی</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >نظرسنجی‌ها</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >مقالات</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >پرونده‌های آماری</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >اینفوگرافی</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >جستجوی پیشرفته</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >دربارۀ ما</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >ارتباط با ما</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Section Header End -->
+
+    <!-- Section Hero Start -->
+    <section id="hero" class="container">
+      <div
+        id="carouselExampleDark"
+        class="carousel carousel-light slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators d-none d-md-block">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/index/Slider1.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>نابرابری ثروت و درآمد در جهان</h5>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/index/Slider2.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>فراوانی خشونت در بین نوجوانان</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/index/Slider3.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>به انتهای دنیا نزدیک می‌شویم؟</h5>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev d-none d-md-inline-flex justify-content-end align-items-center"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next d-none d-md-inline-flex justify-content-start align-items-center"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Section Hero End -->
+
+    <!-- Section MainContent Start -->
+    <main id="main">
+      <div class="container d-flex justify-content-between">
+        <div class="flexContainer">
+          <div class="mainContent">
+            <div class="mainTopContent">
+              <div class="mainContentTitle">
+                <h6>آخرین پایش‌ها</h6>
+                <img src="./images/index/barline.svg" alt="brline" />
+                <button type="button" class="btn btn-outline-dark btn-sm">
+                  مطالعۀ بیش‌تر
+                </button>
+              </div>
+              <div class="topContentItems">
+                <div class="topContentItemsRight">
+                  <div class="card bg-light text-white">
+                    <img
+                      src="./images/index/Slider3.png"
+                      class="card-img"
+                      alt="..."
+                    />
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">
+                        کشورهای توسعه‌یافته رضایت بیش‌تری از آب و هوا دارند
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="topContentItemsLeft">
+                  <div class="topContentItemsLeft_top">
+                    <img src="./images/index/Slider3.png" alt="">
+                    <div class="topContentItemsLeft_top_text">
+                      <img src="./images/index/barline.svg" alt="" style="height: 2px; width: 50px; margin-top: 15px; background-color: #ffcb05;">
+                      <p style="color: #969696; margin-top: 10px;">شهریور 1401 - 23:30</p>
+                      <h6>بخشنده‌ترین کشورهای دنیا</h6>  
+                    </div>
+                  </div>
+                  <div class="topContentItemsLeft_bottom">
+                    <img src="./images/index/Slider3.png" alt="">
+                    <div class="topContentItemsLeft_botttom_text">
+                      <img src="./images/index/barline.svg" alt="" style="height: 2px; width: 50px; margin-top: 15px; background-color: #ffcb05;">
+                      <p style="color: #969696;margin-top: 10px;">شهریور 1401 - 23:30</p>
+                      <h6>عملکرد ضعیف دانش‌آموزان ایرانی</h6>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mainMiddleContent">
+            <div class="mainContentTitle">
+              <h6>پرونده‌های آماری</h6>
+              <button type="button" class="btn btn-sm" style="background-color: #E7E7E7; border: none;">
+                مطالعۀ بیش‌تر
+              </button>
+            </div>
+            <div class="mainMiddleItems">
+            <div class="mainMiddleItem">
+              <img src="./images/index/Slider1.png" alt="">
+              <img src="./images/index/barline.svg" alt="" style="height: 2px; width: 50px; margin-top: 15px;">
+              <p class="date">شهریور 1401 - 22:30</p>
+              <h6>نگاهی به نرخ جهانی خودکشی در سال 2018</h6>
+            </div>
+            <div class="mainMiddleItem">
+              <img src="./images/index/Slider1.png" alt="">
+              <img src="./images/index/barline.svg" alt="" style="height: 2px; width: 50px; margin-top: 15px; background-color: #ffcb05;">
+              <p class="date">شهریور 1401 - 22:30</p>
+              <h6>شاخص توسعه انسانی در ایران بالاتر از میانگین منطقه و جهان است </h6>
+            </div>
+            <div class="mainMiddleItem">
+              <img src="./images/index/Slider1.png" alt="">
+              <img src="./images/index/barline.svg" alt="" style="height: 2px; width: 50px; margin-top: 15px;">
+              <p class="date">شهریور 1401 - 22:30</p>
+              <h6>استان یزد کم‌بارش‌ترین استان کشور</h6>
+            </div>
+            </div>
+          </div>
+          <div class="mainHiddenContent d-none">
+              <img src="./images/index/RaveshShenasi.svg" alt="">
+              <h6>روش‌شناسی <span style="color: #ffcb05;">شناخت</span></h6>
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا باداشت که تمایاز شامل حروفچینی دستاوردهای اصلی، .</p>
+              <div class="mainHiddenContent_button">
+                <a href="./landingServices.html"><button style="background-color: #ffcb05; border: none; color: #ffffff;">سفارش پروژه</button></a>
+                <a href="#"><button style="background-color: #111111; color:#ffffff">دربارۀ ما</button></a>
+              </div>
+          </div>
+          <div class="mainbottomContent">
+            <div class="mainContentTitle">
+              <h6>مقالات</h6>
+              <img src="./images/index/barline.svg" alt="brline" />
+              <button type="button" class="btn btn-outline-dark btn-sm">
+                مطالعۀ بیش‌تر
+              </button>
+            </div>
+            <div class="mainbottomContentItems">
+              <div class="mainbottomContentItem">
+                <img src="./images/index/Slider3.png" alt="">
+                <div class="mainbottomContentItem_info">
+                  <p>دسته آموزشی</p>
+                  <p><i class="fa fa-eye" aria-hidden="true"></i> بازدید: 2036</p>
+                </div>
+                <h6>بهترین راه عبور از خستگی برای برنامه‌نویسان</h6>
+                <p>این متن یک متن ساختگی است تا بهتر بتوانید ببینید و...</p>
+              </div>
+              <div class="mainbottomContentItem">
+                <img src="./images/index/Slider1.png" alt="">
+                <div class="mainbottomContentItem_info">
+                  <p>دسته آموزشی</p>
+                  <p><i class="fa fa-eye" aria-hidden="true"></i> بازدید: 2036</p>
+                </div>
+                <h6>بهترین راه عبور از خستگی برای برنامه‌نویسان</h6>
+                <p>این متن یک متن ساختگی است تا بهتر بتوانید ببینید و...</p>
+              </div>
+              <div class="mainbottomContentItem">
+                <img src="./images/index/Slider2.png" alt="">
+                <div class="mainbottomContentItem_info">
+                  <p>دسته آموزشی</p>
+                  <p><i class="fa fa-eye" aria-hidden="true"></i> بازدید: 2036</p>
+                </div>
+                <h6>بهترین راه عبور از خستگی برای برنامه‌نویسان</h6>
+                <p>این متن یک متن ساختگی است تا بهتر بتوانید ببینید و...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar">
+          <div class="d-flex flex-column align-items-stretch">
+            <div class="list-group list-group-flush border-bottom scrollarea">
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+                aria-current="true"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+                aria-current="true"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+                aria-current="true"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+              <a
+                href="#"
+                class="list-group-item list-group-item-action py-3 lh-sm"
+              >
+                <div>
+                  می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                  بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+                </div>
+              </a>
+              <a
+              href="#"
+              class="list-group-item list-group-item-action py-3 lh-sm"
+            >
+              <div>
+                می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+                بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+              </div>
+            </a>
+            <a
+            href="#"
+            class="list-group-item list-group-item-action py-3 lh-sm"
+          >
+            <div>
+              می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+              بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+            </div>
+          </a>  
+          <a
+          href="#"
+          class="list-group-item list-group-item-action py-3 lh-sm"
+        >
+          <div>
+            می‌توان انتظار داشت که این متن برای نمونه است. لذا توجه
+            بیش‌ازحد به آن منطقی نیست. بنگرید و بروید.
+          </div>
+        </a> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section MainContent End -->
+
+    <!-- Section About Us Start -->
+    <div class="aboutUs container">
+      <div class="aboutUs_right">
+        <h5><span style="color: #ffcb05;">سفارش</span> پایش آماری شناخت</h5>
+        <p>شما به راحتی می‌توانید با کارشناسان ما در شناخت تماس بگیرید</p>
+        <div class="aboutUs_right_button">
+          <a href="#"><button style="background-color: #ffcb05; border: none;">سفارش پروژه</button></a>
+          <a href="#"><button>دربارۀ ما</button></a>
+        </div>
+      </div>
+      <div class="aboutUs_left">
+        <img src="./images/index/aboutUsComplete.svg" alt="">
+      </div>
+    </div>
+    <!-- Section About Us End -->
+
+    <!-- Section Footer Start -->
+    <Footer>
+      <div class="container">
+        <div class="footerTop">
+          <img src="./images/index/LogoBottomTitle.png" alt="">
+          <img src="./images/index/LogoSideTitle.png" class="d-none" alt="">
+          <p>مرکز افکارسنجی شناخت با شعار کلیدی «می‌توان شناخت» تاکید دارد که اگر پروژه‌های خود را توسعه نماید، به شما کمک می‌کند و می‌تواند تا سال‌های سال برای شما متن ساختگی تولید کند تاهنگام طراحی سایت مورد استفاده بی‌جا قرار گیرد و همین‌طور ادامه دهد تا متن طولانی شود و پیاپی بر پروژه‌ها باشد.  <span><a href="#" style="text-decoration: none; color: #ffcb05; font-size: 0.7rem;" >مشاهده بیشتر...</a></span></p>
+        </div>
+        <div class="footerLineHidden d-none">
+          <img src="./images/index/barline.svg" style="height: 1px; width: 40%;" alt="">
+          <p style="color: #ffcb05; font-size: 0.7rem; margin: 0 0.8rem 0 0.8rem;">ارتباط با ما</p>
+          <img src="./images/index/barline.svg" style="height: 1px; width: 40%;" alt=""> 
+         </div>
+        <div class="footerLine">
+          <p>ارتباط با ما</p>
+          <img src="./images/index/barline.svg">
+          <p>نمادهای الکترونیک</p>
+          <img src="./images/index/barline.svg">
+          <p>لینک‌های مفید</p>
+        </div>
+        <div class="footerMiddle">
+          <div class="footerMiddle_right">
+            <div class="footerMiddle_right_item">
+              <i class="fa fa-home" aria-hidden="true"></i>
+              <p><span style="color: #454545;">آدرس دفتر:</span><br><span style="color: #ffffff; font-weight: 100;">مشهد، دانشگاه فردوسی مشهد</span></p>
+            </div>
+            <div class="footerMiddle_right_item">
+              <i class="fa fa-headphones" aria-hidden="true"></i>        <p><span style="color: #454545;">پشتیبانی:</span><br><span style="color: #ffffff; font-weight: 100;">051-57893246</span></p>
+            </div>
+            <div class="footerMiddle_right_item">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <p><span style="color: #454545;">شماره تماس:</span><br><span style="color: #ffffff; font-weight: 100;">051-36549217</span></p>
+            </div>
+            <div class="footerMiddle_right_item">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <p><span style="color: #454545;">آدرس ایمیل:</span><br><span style="color: #ffffff; font-weight: 100;">shenaakht@gmail.com</span></p>
+            </div>
+          </div>
+          <div class="footerMiddle_middle">
+            <img src="./images/index/NeshaneMelli.svg" alt="" style="width: 130px;">
+            <img src="./images/index/Etemad_e_electronic.svg" alt="" style="width: 130px;">
+          </div>
+          <div class="footerLineHidden d-none">
+            <img src="./images/index/barline.svg" style="height: 1px; width: 40%;" alt="">
+            <p style="color: #ffcb05; font-size: 0.7rem; margin: 0 0.8rem 0 0.8rem;">لینک‌های مفید</p>
+            <img src="./images/index/barline.svg" style="height: 1px; width: 40%;" alt=""> 
+           </div>
+          <div class="footerMiddle_left">
+            <div class="footerMiddle_left_item_left">
+              <div class="footerMiddle_left_item">
+                <i class="fa fa-chevron-left" style="color: #ffcb05; font-size: 0.7rem;"></i>
+                <a href="#">گزارش خرابی سایت</a>
+              </div>
+              <div class="footerMiddle_left_item">
+                <i class="fa fa-chevron-left" style="color: #ffcb05; font-size: 0.7rem;"></i>
+                <a href="#">مجله‌های آماری</a>
+              </div>
+              <div class="footerMiddle_left_item">
+                <i class="fa fa-chevron-left" style="color: #ffcb05; font-size: 0.7rem;"></i>
+                <a href="#">مقالات</a>
+              </div>
+            </div>
+            <div class="footerMiddle_left_item_right">
+              <div class="footerMiddle_left_item">
+                <i class="fa fa-chevron-left" style="color: #ffcb05; font-size: 0.7rem;"></i>
+                <a href="#">سوالات متدوال</a>
+              </div>
+              <div class="footerMiddle_left_item">
+                <i class="fa fa-chevron-left" style="color: #ffcb05; font-size: 0.7rem;"></i>
+                <a href="#">دربارۀ ما</a>
+              </div>
+              <div class="footerMiddle_left_item">
+                <i class="fa fa-chevron-left" style="color: #ffcb05; font-size: 0.7rem;"></i>
+                <a href="#">تماس با ما</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footerBottom">
+          <div class="copyright">
+            <p style="color: #ACACAC; font-size: 0.7rem;">تمامی حقوق این وبسایت برای <span style="color: #ffffff;">تیم شناخت</span> محفوظ است.</p>
+          </div>
+          <div class="mediaIcons">
+            <a href="#"><img src="./images/index/instagram.svg"></a>
+            <a href="#"><img src="./images/index/telegram.svg"></a>
+            <a href="#"><img src="./images/index/wattsapp.svg"></a>
+            <a href="#"><img src="./images/index/twiiterX.svg"></a>
+          </div>
+        </div>
+      </div>
+    </Footer>
+    <!-- Section Footer End -->
+    <script src="app.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
